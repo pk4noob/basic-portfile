@@ -41,6 +41,7 @@ ul{
     display: inline;
     overflow: hidden;
     padding-right: 100px;
+
     
 }
 ul li {
@@ -55,6 +56,8 @@ ul li {
     content: "";
     border-right: 1px solid #cfcfcf;
     padding-right: 30px;
+    
+   
 
     
     
@@ -82,6 +85,7 @@ section{
     margin-top: 90px;
     padding-top: 30px;
     padding-bottom: 40px;
+   
 }
 .cat{
     float: left;
@@ -97,6 +101,8 @@ section{
     background-color: white;
     width: 652px;
     height: 450px;
+    clear: both;
+    margin-bottom: 60px;
 }
 .rightsection{
     float: right;
@@ -231,11 +237,40 @@ h5{
     color: black;
     float: left;
 }
-.ulname{
-    width: 200px;
-    height: 200px;
-}
+
 input{
-    width: auto;
-    height: auto;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    width: 96%;
+}
+
+label{
+    display: block;
+}
+.ulname{
+    /* width: 200px;
+    height:200px; */
+    float: left;
+    
+}
+.liname{
+    display: block;
+    width: 118%;
+}
+textarea{
+    width: 100%;
+}
+input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
